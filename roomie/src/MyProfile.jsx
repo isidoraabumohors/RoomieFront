@@ -81,7 +81,7 @@ function MyProfile() {
   }, [userid, profileid, token]);
 
   const handleSearchMatches = () => {
-    navigate(`/mainpage/${userid}/${profileid}/${locationName.id}`);
+    navigate(`/MainPage/${userid}/${profileid}/${locationName.id}`);
   };
 
   const handleExistingMatches = () => {

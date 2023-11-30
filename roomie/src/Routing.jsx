@@ -30,7 +30,7 @@ function Routing() {
         <Route path={"/instructions"} element={<Instructions/>} />
         <Route path={"mymatches/:userid/:profileid"} element={<MyMatches/>} />
         <Route path={"/myprofile/:userid/:profileid"} element={<MyProfile/>} />
-        <Route path={"/mainpage/:userid/:profileid/:locationid"} element={<MainPage/>} />
+        <Route path={"/MainPage/:userid/:profileid/:locationid"} element={<MainPage/>} />
         <Route path={"/navbar"} element={<Navbar/>} />
         <Route path={"/register"} element={<Register/>} />
         <Route path={"/login"} element={<Login/>} />
