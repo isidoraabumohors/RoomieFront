@@ -3,8 +3,8 @@ import './MainPage.css';
 import Navbar from './Navbar.jsx';
 import axios from 'axios';
 import { useParams, useNavigate } from 'react-router-dom';
-import { AuthContext } from './auth/AuthContext';
-import API_URL from "./config"
+import { AuthContext } from './auth/AuthContext.jsx';
+import API_URL from "./config.js"
 
 export default function MainPage() {
 
